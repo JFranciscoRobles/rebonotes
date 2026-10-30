@@ -1,0 +1,23 @@
+{
+  "name": "@rebonotes/desktop",
+  "version": "0.1.0",
+  "description": "ReboNotes as a desktop application with Tauri: a folder of Markdown files as a workspace, kept as it is written, native menus, folders opened from the Finder or the Explorer.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "web": "vite",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@rebonotes/core": "^0.1.0",
+    "@rebonotes/editor": "^0.1.0",
+    "@tauri-apps/api": "^2.12.4",
+    "@tauri-apps/plugin-dialog": "^2.8.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.12.4"
+  }
+}

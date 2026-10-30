@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ReboNotes playground</title>
+    <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+    <style>
+      html, body { margin: 0; height: 100%; background: #efede8; }
+      @media (prefers-color-scheme: dark) { html:not([data-theme="light"]), html:not([data-theme="light"]) body { background: #1c1b19; } }
+      html[data-theme="dark"], html[data-theme="dark"] body { background: #1c1b19; }
+      #notes { height: 100%; }
+      #share { position: fixed; right: 18px; bottom: 18px; z-index: 80; height: 36px; padding: 0 14px; border: 0; border-radius: 10px; background: #c2255c; color: #fff; font: 600 14px system-ui, sans-serif; box-shadow: 0 6px 20px rgba(0,0,0,.18); cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <div id="notes"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

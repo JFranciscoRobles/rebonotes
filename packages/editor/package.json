@@ -1,0 +1,20 @@
+{
+  "name": "@rebonotes/editor",
+  "version": "0.1.0",
+  "description": "A notes editor for the browser: pages of blocks edited in place, a slash menu, blocks dragged into place, the page tree and quick search. No framework.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./rebosheets": "./src/formats/rebosheets.ts",
+    "./reboslides": "./src/formats/reboslides.ts",
+    "./rebodocs": "./src/formats/rebodocs.ts"
+  },
+  "dependencies": {
+    "@rebonotes/core": "*",
+    "@rebosheets/viewer": "file:../../../sheets/packages/viewer",
+    "@reboslides/viewer": "file:../../../slides/packages/viewer",
+    "@rebodocs/viewer": "file:../../../docs/packages/viewer"
+  }
+}

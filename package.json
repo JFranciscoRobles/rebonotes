@@ -1,0 +1,44 @@
+{
+  "name": "rebonotes",
+  "version": "0.1.0",
+  "description": "Notes and wikis for the browser, with an engine of its own: pages of blocks kept as Markdown, a page tree, links between pages, and tools for AI assistants.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @rebonotes/playground",
+    "build": "npm run build -w @rebonotes/playground",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage --coverage.include='packages/*/src/**'",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "collab": "node packages/collab/bin/rebonotes-collab.mjs",
+    "mcp": "node packages/mcp/bin/rebonotes-mcp.mjs",
+    "site": "npm run dev -w @rebonotes/site",
+    "build:site": "npm run build -w @rebonotes/site",
+    "desktop": "npm run dev -w @rebonotes/desktop",
+    "build:desktop": "npm run build -w @rebonotes/desktop"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitest/coverage-v8": "^5.0.5",
+    "happy-dom": "^21.0.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vite-node": "^6.0.0",
+    "vitest": "^5.0.5"
+  }
+}
