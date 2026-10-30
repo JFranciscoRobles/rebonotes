@@ -16,5 +16,8 @@
     "@rebosheets/viewer": "file:../../../sheets/packages/viewer",
     "@reboslides/viewer": "file:../../../slides/packages/viewer",
     "@rebodocs/viewer": "file:../../../docs/packages/viewer"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
   }
 }

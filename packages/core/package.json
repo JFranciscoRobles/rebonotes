@@ -11,5 +11,8 @@
   "dependencies": {
     "fflate": "^0.8.2",
     "@rebosheets/core": "file:../../../sheets/packages/core"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
   }
 }

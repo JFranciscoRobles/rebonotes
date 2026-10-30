@@ -11,5 +11,8 @@
   "dependencies": {
     "@rebonotes/collab": "*",
     "@rebonotes/core": "*"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
   }
 }

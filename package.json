@@ -25,7 +25,9 @@
     "site": "npm run dev -w @rebonotes/site",
     "build:site": "npm run build -w @rebonotes/site",
     "desktop": "npm run dev -w @rebonotes/desktop",
-    "build:desktop": "npm run build -w @rebonotes/desktop"
+    "build:desktop": "npm run build -w @rebonotes/desktop",
+    "build:packages": "npm run build -w @rebonotes/core -w @rebonotes/editor -w @rebonotes/collab -w @rebonotes/react -w @rebonotes/mcp",
+    "release": "npm run build:packages && node tools/release.mjs"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",
