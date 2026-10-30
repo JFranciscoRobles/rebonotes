@@ -4,18 +4,18 @@ Every package of ReboNotes is released at the same version. Before 1.0, a
 minor version (0.x.0) may change the API; such changes are listed under
 **Changed** with what to do about them.
 
-## Unreleased
+## 0.1.0 — 2026-10-29
 
 ### Added
 
-- **The packages ready for npm.** `@rebonotes/core`, `editor`, `collab`,
+- **The packages on npm.** `@rebonotes/core`, `editor`, `collab`,
   `react` and `mcp` are each built to a `dist/` of their own by
   `tools/package.mjs`, with their types and a package.json for npm, and
   `npm run release` publishes them in that order, passing over a version
   already there. The apps of the suite linked from beside the repository
   go to npm at the version each is at: `@rebosheets/core` and
   `@rebosheets/viewer` 0.1, `@rebodocs/viewer` 0.13 and
-  `@reboslides/viewer` 0.7, which has to be on npm first. The commands of
+  `@reboslides/viewer` 0.7. The commands of
   `@rebonotes/collab` and `@rebonotes/mcp` are built into the package.
 - **The engine** (`@rebonotes/core`): pages of blocks (text, headings,
   lists, to-dos, toggles, quotes, callouts, code, dividers, images, pages),

@@ -8,10 +8,13 @@ you. The interface is in English and Spanish.
 
 It is the notes of the Rebo suite, beside
 [Rebodocs](https://rebodocs.com), Rebosheets, ReboSlides and ReboFiles. It
-is early: version 0.1, the engine and the editor written and tested, nothing
-on npm yet.
+is early: version 0.1, on npm.
 
 ## Quick start
+
+```sh
+npm install @rebonotes/editor    # or @rebonotes/react
+```
 
 ```ts
 import { sampleWorkspace } from '@rebonotes/core';
