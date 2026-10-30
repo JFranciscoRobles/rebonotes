@@ -1,6 +1,6 @@
 {
   "name": "@rebonotes/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tools for an AI assistant to read and write notes: an MCP server for Claude Desktop, Claude Code and other clients, on folders of Markdown or live in a room of the collaboration server.",
   "license": "MIT",
   "private": true,

@@ -1,6 +1,6 @@
 [package]
 name = "rebonotes-desktop"
-version = "0.1.0"
+version = "0.1.1"
 description = "ReboNotes as a desktop application"
 license = "MIT"
 edition = "2021"

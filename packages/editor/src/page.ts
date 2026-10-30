@@ -401,6 +401,7 @@ export class PageView {
         check.type = 'button';
         check.className = 'rn-marker rn-check';
         check.setAttribute('role', 'checkbox');
+        check.setAttribute('aria-label', t.markDone);
         check.setAttribute('aria-checked', String(!!block.checked));
         if (block.checked) check.append(icon(doc, 'todo', 14));
         el.classList.toggle('rn-done', !!block.checked);
@@ -412,6 +413,7 @@ export class PageView {
         arrow.type = 'button';
         arrow.className = 'rn-marker rn-arrow';
         arrow.setAttribute('aria-expanded', String(!block.folded));
+        arrow.setAttribute('aria-label', t.toggleContents);
         arrow.append(icon(doc, 'chevronRight', 16));
         row.append(arrow, text());
         el.append(row);

@@ -1,6 +1,6 @@
 {
   "name": "@rebonotes/playground",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The test application every package is tried in.",
   "license": "MIT",
   "private": true,
@@ -10,8 +10,8 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@rebonotes/core": "^0.1.0",
-    "@rebonotes/editor": "^0.1.0",
-    "@rebonotes/collab": "^0.1.0"
+    "@rebonotes/core": "^0.1.1",
+    "@rebonotes/editor": "^0.1.1",
+    "@rebonotes/collab": "^0.1.1"
   }
 }

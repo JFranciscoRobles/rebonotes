@@ -93,7 +93,7 @@ const CSS = `
 .rn-icon-small { width: 24px; height: 24px; border-radius: 6px; }
 .rn-nav-action { display: flex; align-items: center; gap: 10px; width: 100%; height: 32px; padding: 0 10px; border: 0; border-radius: 8px; background: none; color: var(--rn-muted) !important; font-size: 14px; text-align: left; cursor: pointer; }
 .rn-nav-action:hover { background: var(--rn-hover); color: var(--rn-text) !important; }
-.rn-nav-action kbd { margin-left: auto; font: 12px var(--rn-font); opacity: 0.75; }
+.rn-nav-action kbd { margin-left: auto; font: 12px var(--rn-font); }
 .rn-nav-label { display: flex; align-items: center; justify-content: space-between; padding: 16px 6px 4px 10px; color: var(--rn-muted); font-size: 12px; font-weight: 600; }
 .rn-tree { flex: 1; overflow-y: auto; padding-bottom: 12px; }
 .rn-tree-row { position: relative; display: flex; align-items: center; gap: 2px; height: 30px; padding: 0 4px 0 calc(var(--depth) * 14px + 4px); border-radius: 8px; cursor: pointer; user-select: none; }

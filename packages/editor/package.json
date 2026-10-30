@@ -1,6 +1,6 @@
 {
   "name": "@rebonotes/editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A notes editor for the browser: pages of blocks edited in place, a slash menu, blocks dragged into place, the page tree and quick search. No framework.",
   "license": "MIT",
   "private": true,

@@ -1,6 +1,6 @@
 {
   "name": "@rebonotes/react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The notes as a React component, or as headless hooks for an interface of one's own, with collaboration in both.",
   "license": "MIT",
   "private": true,

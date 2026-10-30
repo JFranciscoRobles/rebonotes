@@ -4,6 +4,17 @@ Every package of ReboNotes is released at the same version. Before 1.0, a
 minor version (0.x.0) may change the API; such changes are listed under
 **Changed** with what to do about them.
 
+## 0.1.1 — 2026-10-29
+
+### Fixed
+
+- **Every button of a page has a name for screen readers.** The box of a
+  to-do is "Mark as done" ("Marcar como hecha"), checked or not, and the
+  arrow of a toggle is "What is inside" ("Lo que hay dentro"), open or
+  closed; they had none.
+- **⌘K beside Search reads at 4.5:1.** It was faded below the colour of
+  the text around it, to 3.2:1 in light.
+
 ## 0.1.0 — 2026-10-29
 
 ### Added
