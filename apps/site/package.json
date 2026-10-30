@@ -1,6 +1,6 @@
 {
   "name": "@rebonotes/site",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "The landing page of ReboNotes and its developer documentation.",
   "license": "MIT",
   "private": true,
@@ -11,10 +11,10 @@
     "start": "npx serve out -l 5201"
   },
   "dependencies": {
-    "@rebonotes/collab": "^0.1.1",
-    "@rebonotes/core": "^0.1.1",
-    "@rebonotes/editor": "^0.1.1",
-    "@rebonotes/react": "^0.1.1",
+    "@rebonotes/collab": "^0.2.0",
+    "@rebonotes/core": "^0.2.0",
+    "@rebonotes/editor": "^0.2.0",
+    "@rebonotes/react": "^0.2.0",
     "markdown-it": "^15.0.2",
     "markdown-it-anchor": "^10.0.0",
     "next": "^16.4.3",

@@ -4,6 +4,21 @@ Every package of ReboNotes is released at the same version. Before 1.0, a
 minor version (0.x.0) may change the API; such changes are listed under
 **Changed** with what to do about them.
 
+## 0.2.0 — 2026-10-30
+
+### Added
+
+- **A page as a picture.** `drawPage(ctx, page)` in `@rebonotes/core`
+  draws a page as the editor shows it in light (its icon, its title, its
+  blocks until the sheet of `PICTURE_SIZE` is full) on any 2D context: a
+  browser's canvas, or a server's such as `@napi-rs/canvas`, for nothing
+  of the DOM is used. `pageCanvas(page, size)` and
+  `pictureOfNote(bytes, size)` in `@rebonotes/editor` make it in the page,
+  the pictures of the page loaded first where they may be drawn: the
+  thumbnail of a file of notes in a drive, as `pictureOfDocx` and
+  `pictureOfDeck` are of a Word document and a deck. `readNotesFile`
+  reads such a file (its workspace as JSON).
+
 ## 0.1.1 — 2026-10-29
 
 ### Fixed

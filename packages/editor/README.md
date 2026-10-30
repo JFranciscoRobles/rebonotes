@@ -11,3 +11,5 @@ notes.toMarkdown();
 ```
 
 The look is set by custom properties on `.rn-root` (`--rn-accent`, `--rn-font`, …), light and dark; `data-theme="light"` or `"dark"` on it fixes one.
+
+A file of notes (its workspace as JSON) as a picture of its first page, for a drive's thumbnail: `pictureOfNote(bytes, 480)` gives a JPEG whose longest side is 480 pixels; `pageCanvas(page, size)` gives the canvas.

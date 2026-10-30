@@ -1,6 +1,6 @@
 # Estado y hoja de ruta
 
-ReboNotes está en la versión 0.1: cada paquete escrito y probado, nada en npm todavía.
+ReboNotes está en la versión 0.2: cada paquete escrito y probado, y en npm.
 
 ## Hecho
 
@@ -11,10 +11,12 @@ ReboNotes está en la versión 0.1: cada paquete escrito y probado, nada en npm 
 - Colaboración bloque por bloque, con presencia; deshacer solo lo propio.
 - Un servidor MCP con 20 herramientas; un componente de React y hooks headless.
 - Una app de escritorio: una carpeta de archivos Markdown como espacio de trabajo.
+- Una página como imagen, como la muestra el editor: para la miniatura de una nota en un drive, dibujada en la página o en un servidor.
 
 ## Todavía no
 
 - Texto fusionado letra por letra cuando dos personas escriben en el mismo bloque: ahí gana el último.
 - Filtros y más vistas de una base de datos (calendario, galería), y abrir una fila como página.
 - Comentarios, y un historial de versiones de una página.
-- Los paquetes en npm.
+- Que el editor solo muestre una página, en vivo: quien solo puede leer una sala la ve cambiar, sin escribir en ella.
+- Lo que dice un archivo de notas, para que un drive lo encuentre al buscar.

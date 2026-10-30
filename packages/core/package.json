@@ -1,6 +1,6 @@
 {
   "name": "@rebonotes/core",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "The engine: pages of blocks, databases with formulas (worked out by Rebosheets' engine), the workspace and its tree, links between pages, search, and Markdown both ways. No DOM.",
   "license": "MIT",
   "private": true,

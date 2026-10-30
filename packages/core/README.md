@@ -11,3 +11,5 @@ pageToMarkdown(next);
 ```
 
 Everything is immutable: each function gives a new page or workspace, and the blocks it did not touch are the same objects as before, so a change is found by comparing them.
+
+A page is drawn as a picture by `drawPage(ctx, page)` on any 2D context, a browser's canvas or a server's (`@napi-rs/canvas`): as the editor shows it in light, on a sheet of `PICTURE_SIZE`, for a thumbnail.

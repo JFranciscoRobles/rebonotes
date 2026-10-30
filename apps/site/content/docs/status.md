@@ -1,6 +1,6 @@
 # Status and roadmap
 
-ReboNotes is at version 0.1: every package written and tested, nothing on npm yet.
+ReboNotes is at version 0.2: every package written and tested, and on npm.
 
 ## Done
 
@@ -11,10 +11,12 @@ ReboNotes is at version 0.1: every package written and tested, nothing on npm ye
 - Collaboration block by block, with presence; undo of one's own changes.
 - An MCP server with 20 tools; a React component and headless hooks.
 - A desktop app: a folder of Markdown files as a workspace.
+- A page as a picture, as the editor shows it: for the thumbnail of a note in a drive, drawn in the page or on a server.
 
 ## Not yet
 
 - Text merged letter by letter when two people write in the same block: the last one wins there.
 - Filters and more views of a database (calendar, gallery), and a row opened as a page.
 - Comments, and a history of versions of a page.
-- The packages on npm.
+- A way for the editor only to show a page, live: someone who may only read a room sees it change, without writing in it.
+- What is written in a file of notes, for a drive to find it by.

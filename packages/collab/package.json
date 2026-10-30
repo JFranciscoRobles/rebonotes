@@ -1,6 +1,6 @@
 {
   "name": "@rebonotes/collab",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Real-time collaboration on workspaces of notes: the room server, its client, and the changes between them.",
   "license": "MIT",
   "private": true,

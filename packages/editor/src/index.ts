@@ -6,5 +6,6 @@ export { EN, ES, LOCALES, languageOf, type Strings, say, stringsFor } from './i1
 export { icon } from './icons';
 export { mountNotes, Notes, type NotesEvent, type NotesOptions, type NotesPeer, type NotesPresence } from './notes';
 export { type Focus, type PageHost, PageView } from './page';
+export { pageCanvas, pictureOfNote, readNotesFile } from './picture';
 export { openPicker, type Picked } from './picker';
 export { installStyles } from './styles';

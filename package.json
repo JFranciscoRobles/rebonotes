@@ -1,6 +1,6 @@
 {
   "name": "rebonotes",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Notes and wikis for the browser, with an engine of its own: pages of blocks kept as Markdown, a page tree, links between pages, and tools for AI assistants.",
   "license": "MIT",
   "private": true,
